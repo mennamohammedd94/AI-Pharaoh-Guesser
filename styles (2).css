@@ -1,0 +1,105 @@
+/* font-size: بتحدد حجم الخط.
+color: بتحدد لون النص.
+text-shadow: بتضيف ظل للنص.
+margin-bottom: بتحدد المسافة تحت العنصر.
+background-image: بتحدد صورة الخلفية.
+background-size: بتحدد طريقة عرض صورة الخلفية (مثلاً تغطي كل العنصر).
+background-position: بتحدد موضع صورة الخلفية.
+background-repeat: بتحدد هل الصورة تتكرر ولا لأ.
+background-attachment: بتحدد هل الخلفية ثابتة أثناء التمرير ولا لأ.
+font-family: بتحدد نوع الخط المستخدم.
+padding: بتضيف مسافة داخلية بين محتوى العنصر وحدوده.
+text-align: بتحدد محاذاة النص داخل العنصر (يمين، يسار، وسط).
+max-width: بتحدد أقصى عرض للعنصر.
+margin: بتحدد المسافة خارج العنصر (من جميع الاتجاهات).
+list-style: بتحدد شكل التعداد في القوائم (أو تلغيه).
+border-left: بتضيف خط على الجانب الأيسر للعنصر.
+background: بتحدد خلفية العنصر (لون أو صورة).
+border-radius: بتخلي الحواف دائرية.
+font-weight: بتحدد درجة سماكة الخط.
+border: بتحدد حدود العنصر (النوع واللون والسُمك).
+cursor: بتغير شكل المؤشر عند المرور على العنصر.
+box-shadow: بتضيف ظل خارجي للعنصر.
+transition: بتحدد تأثير الانتقال عند تغيير الخصائص.
+transform: بتغير شكل العنصر (زي التكبير أو التدوير).
+text-decoration: بتحدد تزيين النص (تحت خط، فوق خط... إلخ).
+margin-top: بتحدد المسافة فوق العنصر. */
+
+h1 {
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  color: #a67c00;
+  text-shadow: 1px 1px 3px #00000060;
+  margin-bottom: 1.25rem;
+}
+body {
+  background-image: url("https://i.pinimg.com/1200x/9b/f6/ec/9bf6ecec23af6672675c508c04080a10.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: "Georgia", serif;
+  padding: 40px;
+  text-align: center;
+}
+#pragh1 {
+  color: black;
+  max-width: 680px;
+  margin: 1.25rem auto;
+  font-size: 1.15rem;
+  text-align: center;
+}
+#pragh2 {
+  color: black;
+  max-width: 680px;
+  margin: 1.25rem auto;
+  font-size: 1.15rem;
+  text-align: left;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 650px;
+  margin: 1.5rem auto;
+}
+li {
+  background: #f8f1e5;
+  border-left: 4px solid #a67c00;
+  color: #4b2e2e;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.65rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+button {
+  background-image: url("https://i.pinimg.com/736x/b5/26/dd/b526dd6267fa507640c1ea0ff60637a5.jpg"); /* الصورة الفرعونية */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+#pragh3 {
+  color: black;
+}
+a {
+  color: #4b2e2e;
+  text-decoration: auto;
+}
+#resultText {
+  color: #8b4513;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
